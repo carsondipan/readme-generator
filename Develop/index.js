@@ -2,7 +2,7 @@
 
 const inquirer = require("inquirer");
 const fs = require('fs');
-const util = require("util");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -19,20 +19,20 @@ const questions = [
             }
         }
     },
-    {
-        type: 'list',
-        name: 'license',
-        message: 'What licenses are you utilizing?',
-        choices: ['None', 'MIT', 'Apache', 'GPL v3.0'],
-        validate: licenseInput => {
-            if (licenseInput) {
-                return true;
-            } else {
-                console.log('Enter your licenses utilized.')
-                return false;
-            }
-        }
-    },
+    // {
+    //     type: 'list',
+    //     name: 'license',
+    //     message: 'What licenses are you utilizing?',
+    //     choices: ['None', 'MIT', 'Apache', 'GPL v3.0'],
+    //     validate: licenseInput => {
+    //         if (licenseInput) {
+    //             return true;
+    //         } else {
+    //             console.log('Enter your licenses utilized.')
+    //             return false;
+    //         }
+    //     }
+    // },
     {
         type: 'input',
         name: 'description',
@@ -129,7 +129,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile (content)  {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./readmeexample.md', filecontent, err => {
+        fs.writeFile('./readmeexample.md', content, err => {
             if (err) {
                 reject(err);
                 return;
@@ -143,10 +143,10 @@ function writeToFile (content)  {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.createPromptModule(questions)
-        then(function(answer) {
+    inquirer.prompt(questions)
+        .then(function(answer) {
             console.log(answer);
-        var filecontent = generateMarkdown(answer);
+        var content = generateMarkdown(answer);
         writeToFile(content)
         });
 };
