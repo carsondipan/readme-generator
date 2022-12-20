@@ -19,20 +19,20 @@ const questions = [
             }
         }
     },
-    // {
-    //     type: 'list',
-    //     name: 'license',
-    //     message: 'What licenses are you utilizing?',
-    //     choices: ['None', 'MIT', 'Apache', 'GPL v3.0'],
-    //     validate: licenseInput => {
-    //         if (licenseInput) {
-    //             return true;
-    //         } else {
-    //             console.log('Enter your licenses utilized.')
-    //             return false;
-    //         }
-    //     }
-    // },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'What licenses are you utilizing?',
+        choices: ['None', 'MIT', 'Apache', 'GPL v3.0'],
+        validate: licenseInput => {
+            if (licenseInput) {
+                return true;
+            } else {
+                console.log('Enter your licenses utilized.')
+                return false;
+            }
+        }
+    },
     {
         type: 'input',
         name: 'description',
