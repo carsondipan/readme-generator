@@ -61,7 +61,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'usage',
+        name: 'uses',
         message: 'How do you run your project code?',
         validate: usageInput => {
             if (usageInput) {
@@ -144,7 +144,7 @@ function writeToFile (content)  {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.createPromptModule(questions)
-        .then(function(answer) {
+        then(function(answer) {
             console.log(answer);
         var filecontent = generateMarkdown(answer);
         writeToFile(content)
