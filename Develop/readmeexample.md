@@ -1,6 +1,11 @@
 
-  # readme generator
+  ## License: GPL v3.0 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  ### https://www.gnu.org/licenses
+
+  # Readme generator
+
   ## Table of Contents
+  
   ### * [Install](#install)
   ### * [Uses](#uses)
   ### * [Licenses](#licenses)
@@ -9,19 +14,19 @@
   ### * [Questions](#questions)
 
   ## Install
-  ### clone the repo to your machine, then run node index.js in your terminal while in the develop directory
+  ### git clone from the repo
 
   ## Uses:
-  ### run node index.js in your terminal
+  ### node index.js
 
   ## Contributors:
-  ### solo work babye
+  ### nobody
 
   ## Tests
-  ### I have tested this by going through these steps multiple times
+  ### using the terminal and visually seeing the readme file
 
   ## Questions
   ### If you've got questions, send em my way at:
   ### GitHub: https://github.com/carsondipan
   ### or
-  ### Email me at: carson.dipangrazio@gmail.com
+  ### Email me at: carldip325@gmail.com
