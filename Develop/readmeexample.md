@@ -2,11 +2,12 @@
   ##  
   ### 
 
-  # Credit Card Encryption
+  # f
 
   ## Table of Contents
   
   ### * [Install](#install)
+  ### * [Description](#description)
   ### * [Uses](#uses)
   ### * [Licenses](#licenses)
   ### * [Contributors](#contributors)
@@ -14,19 +15,22 @@
   ### * [Questions](#questions)
 
   ## Install
-  ### First, run NPM i, then mysql -uroot, then npm run setup. After doing that, run nodemon and open up the localhost.
+  ### f
+
+  ## Description
+  ### f
 
   ## Uses:
-  ### Through the Browser
+  ### f
 
   ## Contributors:
-  ### Samson Vang, Justin Moran, and Kyle Phillips.
+  ### f
 
   ## Tests
-  ### Much trial and error.
+  ### f
 
   ## Questions
   ### If you've got questions, send em my way at:
-  ### GitHub: https://github.com/carsondipan
+  ### GitHub: https://github.com/f
   ### or
-  ### Email me at: carldip325@gmail.com
+  ### Email me at: f

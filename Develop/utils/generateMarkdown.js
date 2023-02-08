@@ -65,6 +65,7 @@ function generateMarkdown(answer) {
   ## Table of Contents
   
   ### * [Install](#install)
+  ### * [Description](#description)
   ### * [Uses](#uses)
   ### * [Licenses](#licenses)
   ### * [Contributors](#contributors)
@@ -73,6 +74,9 @@ function generateMarkdown(answer) {
 
   ## Install
   ### ${answer.installation}
+
+  ## Description
+  ### ${answer.description}
 
   ## Uses:
   ### ${answer.uses}
