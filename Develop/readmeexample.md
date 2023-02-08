@@ -1,8 +1,8 @@
 
-  ## License: GPL v3.0 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-  ### https://www.gnu.org/licenses
+  ##  
+  ### 
 
-  # Readme generator
+  # Credit Card Encryption
 
   ## Table of Contents
   
@@ -14,16 +14,16 @@
   ### * [Questions](#questions)
 
   ## Install
-  ### git clone from the repo
+  ### First, run NPM i, then mysql -uroot, then npm run setup. After doing that, run nodemon and open up the localhost.
 
   ## Uses:
-  ### node index.js
+  ### Through the Browser
 
   ## Contributors:
-  ### nobody
+  ### Samson Vang, Justin Moran, and Kyle Phillips.
 
   ## Tests
-  ### using the terminal and visually seeing the readme file
+  ### Much trial and error.
 
   ## Questions
   ### If you've got questions, send em my way at:
