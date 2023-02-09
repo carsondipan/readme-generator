@@ -2,7 +2,7 @@
   ##  
   ### 
 
-  # f
+  # E-Commerce Back End
 
   ## Table of Contents
   
@@ -15,22 +15,22 @@
   ### * [Questions](#questions)
 
   ## Install
-  ### f
+  ### clone the Develop folder into your command line.
 
   ## Description
-  ### f
+  ### This project is based around creating a database in ORM centered around products, tags, and categories.
 
   ## Uses:
-  ### f
+  ### clone the repository into your command line, cd into the Develop folder, and then run nodemon.
 
   ## Contributors:
-  ### f
+  ### none
 
   ## Tests
-  ### f
+  ### Testing was done with a live server aswell as Insomnia.
 
   ## Questions
   ### If you've got questions, send em my way at:
-  ### GitHub: https://github.com/f
+  ### GitHub: https://github.com/carsondipan
   ### or
-  ### Email me at: f
+  ### Email me at: carldip325@gmail.com
